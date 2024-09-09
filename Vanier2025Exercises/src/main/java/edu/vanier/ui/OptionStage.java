@@ -26,7 +26,7 @@ public class OptionStage extends Stage {
         Button btnClose = new Button("Close");
         Button btnSave = new Button("Save");
         btnClose.setOnAction((event) ->{
-            Platform.exit();
+            close();
         });
 
         optionsRoot.getChildren().addAll(btnClose, btnSave);

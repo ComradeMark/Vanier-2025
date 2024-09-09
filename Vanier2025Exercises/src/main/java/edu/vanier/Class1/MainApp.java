@@ -57,7 +57,8 @@ public class MainApp extends Application{
 //Can force top layer
     primaryStage.setAlwaysOnTop(true);
 //We must explicitly ask it to show
-    primaryStage.show();
+        primaryStage.show();
+        System.out.println("Doing something else...");
         
     }
 }
