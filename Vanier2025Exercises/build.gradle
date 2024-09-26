@@ -24,9 +24,6 @@ dependencies {
     compileOnly  "org.openjfx:javafx-controls:$javafxVersion:javadoc"
     compileOnly  "org.openjfx:javafx-fxml:$javafxVersion:javadoc"
     compileOnly  "org.openjfx:javafx-graphics:$javafxVersion:javadoc"
-    // https://mvnrepository.com/artifact/com.opencsv/opencsv
-    implementation group: 'com.opencsv', name: 'opencsv', version: '5.9'
-
 }
 //-- Loads the JavaFX modules of the selected JavaFX version.
 javafx {    
@@ -43,6 +40,6 @@ application {
    // Define the main class for the application.
    // TODO: specify the fully qualified name of the class 
    //       that contains the main method your would like to run.
-   mainClass = 'edu.vanier.Driver.MainApp.java'
+   mainClass = 'edu.vanier.Class1.MainApp'
 }
  

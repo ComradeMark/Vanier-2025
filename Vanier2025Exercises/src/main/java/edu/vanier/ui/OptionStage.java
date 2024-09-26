@@ -14,7 +14,7 @@ public class OptionStage extends Stage {
         initOwner(owner);
         initComponents();
         //Makes stage a modal window, forcing user interaction before exit is possible
-        initModality(Modality.APPLICATION_MODAL);
+        //initModality(Modality.APPLICATION_MODAL);
 
     }
     private void initComponents(){
